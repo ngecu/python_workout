@@ -1,15 +1,18 @@
-
+#import random
 import random
+
+#define function
 def guessing_game():
-    x = random.randint(0, 100)
+    x = random.randint(0,100)
     while True:
-        answer = int(input('What is your guess? '))
+        answer = int(input("what is your guess?"))
         if answer == x:
-            print('Correct answer')
+            print("Correct answer")
             break
         if answer < x:
-            print('Too low')
+            print("too low")
         else:
-            print('Too High')
+            print("Too High")
+        
 
 guessing_game()

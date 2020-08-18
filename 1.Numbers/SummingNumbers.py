@@ -1,8 +1,8 @@
 def mysum(*args):
     sum = 0
     for num in args:
-        sum += num
+        sum +=num
     print(sum)
 
 
-mysum(10,10,902)
+mysum(50,50)
