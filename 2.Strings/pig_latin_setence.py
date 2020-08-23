@@ -9,6 +9,6 @@ def pig_latin_setence():
             sliced_word = word[1:]
             new_sentence.append("{}way".format(sliced_word))
 
-    print(' '.join(new_sentence))
+    return (' '.join(new_sentence))
 
-pig_latin_setence()
+print(pig_latin_setence())

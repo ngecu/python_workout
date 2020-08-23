@@ -1,4 +1,4 @@
 def strsort(string):
-    print(''.join(sorted(string)))        
+    return(''.join(sorted(string)))        
 
-strsort("mynameisrobinson")
+print(strsort("mynameisrobinson"))

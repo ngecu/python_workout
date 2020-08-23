@@ -5,6 +5,6 @@ def ubbi_dubbi(word):
             final_word.append("ub"+letter)
         else:
             final_word.append(letter)
-    print(''.join(final_word))        
+    return(''.join(final_word))        
  
-ubbi_dubbi("elephant")
+print(ubbi_dubbi("elephant"))
